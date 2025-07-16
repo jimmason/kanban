@@ -18,7 +18,7 @@ class KanbanColumn extends HTMLElement {
     const style = document.createElement("style");
     style.textContent = `
       .column-wrapper {
-        background: #fff;
+        background: #ffffffe3;
         border-radius: 8px;
         padding: 1rem;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -37,7 +37,7 @@ class KanbanColumn extends HTMLElement {
       h3 {
         margin: 0;
         font-size: 1.1rem;
-        color: #333;
+        color: #09203f;
       }
 
       .cards {
@@ -68,13 +68,13 @@ class KanbanColumn extends HTMLElement {
         font-size: 0.95rem;
         border: none;
         border-radius: 4px;
-        background-color: #339af0;
+        background-color: #09203f;
         color: white;
         cursor: pointer;
       }
 
       button:hover {
-        background-color: #1c7ed6;
+        background-color: #537895;
       }
     `;
 
